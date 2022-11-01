@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Awesome Books</title>
+  </head>
+  <body>
+    <div class="nav-bar-container">
+      <div class="nav-bar">
+        <div class="main-logo">
+          <a href="#"><h3>Awesome Books</h3></a>
+        </div>
+        <nav class="menus">
+          <ul>
+            <li>
+              <a href="#" id="list">List </a>
+            </li>
+            <li>
+              <span class="vertical-line"></span>
+            </li>
+            <li>
+              <a href="#" id="add-new">Add new </a>
+            </li>
+            <li>
+              <span class="vertical-line"></span>
+            </li>
+            <li>
+              <a href="#" id="contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="date-container">
+      <p id="date"></p>
+    </div>
+
+    <div class="books-table-container hide">
+      <h1 class="main-title">All awesome books</h1>
+      <div class="book-list" id="book-list">
+        <div class="books-table"></div>
+      </div>
+    </div>
+
+    <form class="book-form hide" id="book-form">
+      <h1 class="add-book-title">Add a new book</h1>
+      <div>
+        <input
+          class="title-input"
+          type="text"
+          id="title"
+          placeholder="Title"
+          required
+        />
+      </div>
+      <div>
+        <input
+          class="author-input"
+          type="text"
+          id="author"
+          placeholder="Author"
+          required
+        />
+      </div>
+
+      <button class="add-book-button" type="submit">Add</button>
+    </form>
+
+    <div class="contact-info hide">
+      <h1 class="info-title">Contact information</h1>
+      <p class="info-description1">
+        Do you have any questions or you just want to say "Hello"?
+      </p>
+      <p class="info-description2">You can reach out to us!</p>
+      <ul class="contact-list">
+        <li>Our email: mail@mail.com</li>
+        <li>Our phone number: 0043586534422</li>
+        <li>Our address: Steetname 22, 84503 City, Country</li>
+      </ul>
+    </div>
+    <div class="footer-container">
+      <div class="footer">
+        <div class="copyright">Copyright @ 2022 Creative Commons. Some Rights Reserved.</div>
+      </div>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
