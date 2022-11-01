@@ -18,23 +18,10 @@ Currently not available.
 
 To get a local copy up and running:
 
-Clone the repo
-git clone https://github.com/paulinagonzalezc/awesome-books.git
-Set it up localy.
+- Clone the repository locally
+- Open index.html using Live Server.
 
-## Authors
-
-👤 **Paulina Gonzalez**
-
-- GitHub: [@paulinagonzalezc](https://github.com/paulinagonzalezc)
-- Twitter: [@paulinagzzc](https://twitter.com/paulinagzzc)
-- LinkedIn: [Paulina Gonzalez Cantu]()
-
-👤 **Emmanuel Balikuddembe**
-
-- GitHub: [@Balikuddembe](https://github.com/Balikuddembe)
-- Twitter: [@BalixEmma](https://twitter.com/BalixEmma)
-- LinkedIn: [Emmanuel Balikuddembe](https://www.linkedin.com/in/emmanuel-balikuddembe-763765b2/)
+## Author
 
 👤 **Jesus Molina**
 
@@ -58,4 +45,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
