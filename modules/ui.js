@@ -1,5 +1,5 @@
 /* eslint-disable import/extensions */
-import { store } from '/modules/store.js';
+import { store } from './store.js';
 
 export default class UI {
   static displayBooks = () => {
